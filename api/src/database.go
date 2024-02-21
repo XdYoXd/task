@@ -105,7 +105,7 @@ func GetBook(title, author, genre, keyPhrase string, db *Database) ([]*Book, err
 	} else if title != "" && author != "" {
 		rows, err = db.Db.Query("SELECT * FROM books WHERE LOWER(title) = LOWER(?) AND LOWER(author) = LOWER(?)", title, author)
 	} else if title != "" {
-		rows, err = db.Db.Query("SELECT * FROM books where lower(title) = lower(?)", title)
+		rows, err = db.Db.Query("SELECT * FROM books where LOWER(title) = LOWER(?)", title)
 	} else if author != "" {
 		rows, err = db.Db.Query("SELECT * FROM books WHERE LOWER(author) = LOWER(?)", author)
 	}
