@@ -13,7 +13,7 @@ source ~/.bashrc
 cd task/bot && bun install && cd ..
 cd api && rm go.sum go.mod ; go mod init books && go mod tidy ; cd ..
 
-# Скрипт для установки на другой linux (надо установить bun, golang, git)
+# Скрипт для установки на другой дистрибутив linux (надо установить bun, golang, git)
 git clone https://github.com/XdYoXd/task
 source ~/.bashrc
 cd task/bot && bun install && cd ..
@@ -21,8 +21,8 @@ cd api && rm go.sum go.mod ; go mod init books && go mod tidy ; cd ..
 ```
 
 ## Запуск 
-```sh
 Запустить бот и апи можно используя [Makefile](https://linuxhandbook.com/using-make/).
+```sh
 # Запуск бота:
 make bot
 # Запуск api (нужен для работы бота):
