@@ -1,0 +1,20 @@
+{
+  "name": "bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@telegraf/types": "^6.9.1",
+    "@types/js-yaml": "^4.0.9",
+    "@types/memory-cache": "^0.2.5",
+    "axios": "^1.6.2",
+    "js-yaml": "^4.1.0",
+    "memory-cache": "^0.2.0",
+    "telegraf": "4.14.0"
+  }
+}
