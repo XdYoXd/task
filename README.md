@@ -21,6 +21,7 @@ cd api && rm go.sum go.mod ; go mod init books && go mod tidy ; cd ..
 ```
 
 ## Запуск 
+Нужно заменить в config.yml BOT_TOKEN на токен телеграм бота  
 Запустить бот и апи можно используя [Makefile](https://linuxhandbook.com/using-make/).
 ```sh
 # Запуск бота:
