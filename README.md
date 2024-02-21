@@ -1,9 +1,9 @@
 # База управления книгами в telegram боте
 
 ## Установка 
-> **Ubuntu** - Можно воспользоваться готовым скриптом ниже, но надо до этого установить [golang](https://go.dev/)
+> **Ubuntu** - Можно воспользоваться готовым скриптом ниже, но надо до этого установить [golang](https://go.dev/), icu 
 > 
-> **Other** - Нужно установить [golang](https://go.dev/), [bun](https://bun.sh/), git
+> **Other** - Нужно установить [golang](https://go.dev/), [bun](https://bun.sh/), git, icu
 ```sh
 # Установка для ubuntu ( до этого обязательно надо установить golang)
 apt install curl unzip git
